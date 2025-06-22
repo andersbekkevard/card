@@ -1,0 +1,32 @@
+{
+	"name": "andersbekkevard",
+	"version": "1.0.0",
+	"description": "Anders Bekkevard's personal NPX business card",
+	"main": "index.js",
+	"bin": {
+		"andersbekkevard": "index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"keywords": [
+		"npx",
+		"business-card",
+		"cli",
+		"personal"
+	],
+	"author": "Anders Bekkevard <anders.bekkevard@gmail.com>",
+	"license": "MIT",
+	"type": "module",
+	"files": [
+		"index.js"
+	],
+	"dependencies": {
+		"boxen": "^8.0.1",
+		"chalk": "^5.4.1"
+	},
+	"devDependencies": {
+		"inquirer": "^12.6.3"
+	}
+}
