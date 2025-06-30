@@ -44,12 +44,6 @@ To add interactive menu functionality:
    "files": ["index.js", "menu.js"]
    ```
 
-### Publishing
-
-```bash
-npm login
-npm publish
-```
 
 ## Features
 
